@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    background-image: url(leaves.png);
+}
+
+/* navbar */
+ul {
+    list-style-type: none;
+    text-align: left;
+    overflow: hidden;
+    background-color: lightseagreen;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 130%;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+/* header */  
+header {
+    padding: 5px;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+.title {
+    background-color: lightskyblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 3px solid black;
+    border-radius: 90px;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 25px;
+}
+
+#headerImg0 {
+    float: right;
+    width: 5%;
+    height: 5%;
+    margin: 3px;
+    margin-left: 20px;
+}
+
+#headerImg1 {
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin: 3px;
+    margin-right: 20px;
+}
+
+/* main body of page */
+.textBody {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+h3 {
+    text-align: left;
+    font-size: 25px;
+    padding: auto;
+    margin: auto;
+}
+
+p {
+    padding: auto;
+    margin: auto;
+}
+
+.blogPost {
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    border: 3px solid lightseagreen;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: auto;
+    
+}
+
+.blogImg {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    padding: auto;
+}
+
+.carousel {
+    width:640px;
+    height:360px;
+    margin: auto;
+  }
+
+  .carousel-inner img {
+    margin: auto;
+  }
