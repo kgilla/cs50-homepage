@@ -2,40 +2,48 @@
 <html lang="en">
 <head>
     <title>Kenneth's Kitchen!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style0.css">
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+        ul {
+            display: inline;
+        }
+
+        #pictureGrid {
+            height: 500px;
+            width: 500px;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="homepage0.html">BLOG</a>
-            </li>
-            <li>
-                <a href="homepage1.html">RECIPES</a>
-            </li>
-            <li>
-                <a href="homepage2.html">MEDIA</a>
-            </li>
-            <li>
-                <a href="homepage3.html">ABOUT</a>
-            </li>
-        </ul>
-    </nav>
-    <h1>Kenneth's Kitchen</h1>
-    <h2>Pictures of </h2>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?cs=srgb&dl=burrito-chicken-delicious-dinner-461198.jpg&fm=jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+    <header>
+        <nav>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="pictureGrid">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
         </div>
-    </div>
+    </main>
+    <footer>
+    
+    </footer>
 </body>
 </html>
